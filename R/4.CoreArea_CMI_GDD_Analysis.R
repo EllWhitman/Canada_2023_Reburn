@@ -3,6 +3,7 @@
 #Written by Ellen Whitman
 #ellen.whitman@nrcan-rncan.gc.ca
 #Last Edit Feb 5, 2024
+#Wherever 'Your path here' appears as a comment, please replace with the correct pathway to your local file
 library(terra)
 library(ggplot2)
 library(Hmisc)
