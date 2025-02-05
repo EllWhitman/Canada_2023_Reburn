@@ -3,7 +3,7 @@
 
 ## *Overview*
 The Canada_2023_Reburn repo replicates the analysis presented in the manuscript ‘Extreme 2023 wildfires driving a biome shift in the Canadian boreal forest’. The code is written to be run in R and requires supporting packages which are referenced at the start of each script.
-The scripts generate maps of overlaps between mapped polygon-based fire perimeters and analyse the size, frequency, and total area reburned over time. The user can set the window of time between fires to define a reburn (e.g., 10, 20, 30 years between fires). The scripts then identify core area (far from seed sources) of reburns, and mapped reburns are compared to raster maps of climate normals to identify climate-stressed reburned areas. The code also produces figures displaying the analysis, and summary statistics. For assistance with this repository or scripts please contact Ellen Whitman (ellen.whitman@nrcan-rncan.gc.ca).
+The scripts generate maps of overlaps between mapped polygon-based fire perimeters and analyse the size, frequency, and total area reburned over time. The user can set the window of time between fires to define a reburn (e.g., 10, 20, 30 years between fires). The scripts then identify core area (far from seed sources) of reburns, and mapped reburns are compared to raster maps of climate normals to identify climate-stressed reburned areas. The code also produces figures displaying the analysis, and summary statistics. For assistance with this repository or scripts please contact Ellen Whitman (ellen [dot] whitman [at] nrcan-rncan.gc.ca).
 
 ## *Repo Contents*
 [R](https://github.com/EllWhitman/Canada_2023_Reburn/tree/main/R): r code
