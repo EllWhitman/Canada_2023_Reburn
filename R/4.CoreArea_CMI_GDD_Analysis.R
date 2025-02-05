@@ -47,7 +47,7 @@ rebs.old.df = as.data.frame(rebs.old)#Convert from vector to data frame
 #Aggregate the historical reburn data into years, calculate averages and standard devs
 oldreburns.core.mean = rebs.old.df %>%
   group_by(YEAR) %>%
-  summarize(Core_Area_Ha = sum(AREA_Noseed_Ha))
+  dplyr::summarize(Core_Area_Ha = sum(AREA_Noseed_Ha))
 mean(oldreburns.core.mean$Core_Area_Ha)#34411.81
 sd(oldreburns.core.mean$Core_Area_Ha)#31908.92
 
