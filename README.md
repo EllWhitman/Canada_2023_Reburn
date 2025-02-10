@@ -19,5 +19,5 @@ Scripts were written and run on MacOS Sonoma in RStudio, using R version 4.4.2. 
 ## *How to use*
 Download the scripts, after having installed R, and open them in R or an R development environment where they can be run. Wherever there is a comment in the code saying ‘Your path here’ edit the code to direct to the user’s own local path to locate the file. The scripts require dependencies of certain packages, which are called at the start of each script. You may need to install these packages, if you have not already. The scripts are to be followed in numbered order, beginning with 1.
 
-## *Runtime*
+## *Run time*
 The first two scripts, which manipulate national spatial datasets in a loop, may require several hours (e.g., an entire work day) to run, depending on the area of interest and duration of the time series selected by the user. I recommend selecting a test time period (e.g., 3 consecutive years) to trial the code, determine if the selected study area is reasonable for the computing power available, and to gauge what the runtime of a longer time series will be. The later scripts (numbers 3 – 5) each run in approximately 1 minute, 20 minutes, and <1 minute, respectively.
