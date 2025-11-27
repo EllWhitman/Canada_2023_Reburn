@@ -1,10 +1,23 @@
 #######################
 ##Mapping Area Reburned in the Canadian Boreal Forest in 2023, and prior years
+#Shared only for review. See data availability note.
+#Test data of model outputs is available for use from script 5 onwards
+#https://github.com/EllWhitman/Canada_2023_Reburn/tree/main/Test_Data
 #Fitting models to post-fire tree regeneration field data to predict stem density and % conifer
 #Written by Ellen Whitman
 #ellen.whitman@nrcan-rncan.gc.ca
 #Last Edit Nov 25, 2025
 #Wherever 'Your path here' appears as a comment, please replace with the correct pathway to your local file
+
+Data availability note: not all tree recruitment data used for these models is publicly available, therefore this file is not provided
+#Similar models can be fitted to consolidated field datasets that are publicly available e.g: https://doi.org/10.3334/ORNLDAAC/1955
+#The research team identified and downloaded polygons of fire perimeters for all overlapping fires examined in these studies. 
+#Fire perimeter polygons were sourced from https://cwfis.cfs.nrcan.gc.ca/ (Canada) and https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services/Alaska_Fire_History_Up_To_2024/FeatureServer (Alaska)
+#Climate data was sourced from https://ftp.maps.canada.ca/pub/nrcan_rncan/Climate-archives_Archives-climatologiques/NAM_30_Year_Averages/1991-2020/
+#Field site status was allowed to override mapping errors, assuming that field visits were more reliable than GIS
+#E.G., if a field site was called long interval or unburned, but it was slightly inside of recent a fire perimeter, this was assumed to be a mapping error
+#The national output of these models will be made available on the Canadian Open Government Data Portal.
+#A subset for use with the other scripts in this repo is available at: https://github.com/EllWhitman/Canada_2023_Reburn/tree/main/Test_Data
 
 rm(list=ls())
 library(ggplot2)
