@@ -1,10 +1,13 @@
 #######################
 ##Mapping Area Reburned in the Canadian Boreal Forest in 2023, and prior years
 #Fitting models to post-fire tree regeneration field data to predict stem density and % conifer
+#Test data of predicted stem density and conifer dominance is available at:
+#https://github.com/EllWhitman/Canada_2023_Reburn/tree/main/Test_Data
 #Written by Ellen Whitman
 #ellen.whitman@nrcan-rncan.gc.ca
 #Last Edit Nov 25, 2025
 #Wherever 'Your path here' appears as a comment, please replace with the correct pathway to your local file
+
 rm(list=ls())
 library(terra)
 library(ggplot2)
@@ -20,10 +23,10 @@ pregen = rast(#Your path here
 pcon = rast(#Your path here
   "/Data/Conifer_Dominance_Likelihood_Predicted.tif")
 
-#Convert to DFs (each pixel is a row), combine
+#Convert to dataframes (each pixel is a row), combine
 pcon.df = as.data.frame(pcon)
 pregen.df = as.data.frame(pregen)
-cmi.df = as.data.frame(clim[["CMI"]])#My computer doesn't have enough memory to do this all as one, other peoples' probably do.
+cmi.df = as.data.frame(clim[["CMI"]])#My computer doesn't have enough memory to do this all as one at the national scale, other peoples' probably do.
 gdd.df = as.data.frame(clim[["GDD"]])
 dist.df = as.data.frame(clim[["Distance_Reburnedge_m"]])
 rm(clim)
@@ -34,7 +37,7 @@ regen.df = cbind(regen.df,dist.df$Distance_Reburnedge_m)
 regen.df = cbind(regen.df,cmi.df$CMI)
 regen.df = cbind(regen.df,gdd.df$GDD)
 
-#Rename and save resulting df of all pixels
+#Rename and save resulting dataframe of all pixels
 names(regen.df) = c("PConifer","Total_Stems_ha","Distance_Reburnedge_m","CMI","GDD")
 write.csv(regen.df,#Your Path here
           "/Data/Regen_Trajectories_Data.csv",row.names=T)
