@@ -1,5 +1,6 @@
 #######################
 ##Mapping Area Reburned in the Canadian Boreal Forest in 2023, and prior years
+#Loops though years to identify areas where fire perimeters overlap
 library(terra)
 
 #Written by Ellen Whitman
