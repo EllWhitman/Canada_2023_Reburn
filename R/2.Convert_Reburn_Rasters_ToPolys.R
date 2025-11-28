@@ -1,5 +1,6 @@
 #######################
 ##Mapping Area Reburned in the Canadian Boreal Forest in 2023, and prior years
+#Converts rasters of reburned areas created by script 1 into a single vector file
 #Written by Ellen Whitman
 #ellen.whitman@nrcan-rncan.gc.ca
 #Last Edit Nov 25, 2025
