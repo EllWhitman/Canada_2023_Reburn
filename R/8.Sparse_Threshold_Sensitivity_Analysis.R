@@ -1,6 +1,6 @@
 #######################
 ##Mapping Area Reburned in the Canadian Boreal Forest in 2023, and prior years
-#Analysis of climate and core area within 2023 short-interval reburned areas
+#Sensitivity analysis to examine the effect of varying the threshold to define 'sparse' forest 
 #Written by Ellen Whitman
 #ellen.whitman@nrcan-rncan.gc.ca
 #Last Edit Nov 25, 2025
