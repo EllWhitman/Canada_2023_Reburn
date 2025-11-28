@@ -1,6 +1,6 @@
 #######################
 ##Mapping Area Reburned in the Canadian Boreal Forest in 2023, and prior years
-#Analysis of climate and core area within 2023 short-interval reburned areas
+#Analysis of climate and core area as drivers of post-fire ecosystem trajectory within 2023 short-interval reburned areas
 #Written by Ellen Whitman
 #ellen.whitman@nrcan-rncan.gc.ca
 #Last Edit Nov 25, 2025
