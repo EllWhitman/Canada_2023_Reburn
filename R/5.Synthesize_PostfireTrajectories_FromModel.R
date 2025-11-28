@@ -1,6 +1,6 @@
 #######################
 ##Mapping Area Reburned in the Canadian Boreal Forest in 2023, and prior years
-#Fitting models to post-fire tree regeneration field data to predict stem density and % conifer
+#Synthesizing rasters of predicted stem density and conifer likelihood into data frame, and post-fire ecosystem trajectories
 #Test data of predicted stem density and conifer dominance is available at:
 #https://github.com/EllWhitman/Canada_2023_Reburn/tree/main/data
 #Written by Ellen Whitman
