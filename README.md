@@ -10,7 +10,7 @@ The scripts generate maps of overlaps between mapped polygon-based fire perimete
 [R](https://github.com/EllWhitman/Canada_2023_Reburn/tree/main/R): r code
 
 ## *System requirements*
-Hardware requirements
+Hardware requirements:
 A computer with adequate RAM to manipulate spatial data is necessary for analysing large areas, such as the entire boreal zone of Canada. The runtimes reported are from a computer with a 8 cores with 2.4 GHz per core, and 64 GB of RAM. 
 
 ## *Software requirements*
