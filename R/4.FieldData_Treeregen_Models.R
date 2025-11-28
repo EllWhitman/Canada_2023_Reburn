@@ -2,7 +2,7 @@
 ##Mapping Area Reburned in the Canadian Boreal Forest in 2023, and prior years
 #Shared only for review. See data availability note.
 #Test data of model outputs is available for use from script 5 onwards
-#https://github.com/EllWhitman/Canada_2023_Reburn/tree/main/Test_Data
+#https://github.com/EllWhitman/Canada_2023_Reburn/tree/main/data
 #Fitting models to post-fire tree regeneration field data to predict stem density and % conifer
 #Written by Ellen Whitman
 #ellen.whitman@nrcan-rncan.gc.ca
