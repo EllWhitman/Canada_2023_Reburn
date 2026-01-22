@@ -13,7 +13,7 @@ library(boot)
 
 #Import fire maps and reburn maps
 fires = vect(#your path here
-  'NBAC_1972_2024_20250506.shp')#The download link for the NBAC fire perimeter maps is found in script 1
+  '"Fires_Reburn_Merged_Clip.shp')#The download link for the NBAC fire perimeter maps is found in script 1. This version is NBAC clipped to the boreal zones, and is created in script 1.
 reburns = vect(#Your path here
   "/Data/Reburns_TimeSeries_Complete_19802024_20yr.shp")#This requires the reburn polygon map created with scripts 1 & 2
 reburns$ID = paste(1:nrow(reburns),"_",reburns$YEAR,sep="")
