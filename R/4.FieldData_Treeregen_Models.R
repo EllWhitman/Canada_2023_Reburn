@@ -9,7 +9,7 @@
 #Last Edit Nov 25, 2025
 #Wherever 'Your path here' appears as a comment, please replace with the correct pathway to your local file
 
-Data availability note: not all tree recruitment data used for these models is publicly available, therefore this file is not provided
+#Data availability note: not all tree recruitment data used for these models is publicly available, therefore this file is not provided
 #Similar models can be fitted to consolidated field datasets that are publicly available e.g: https://doi.org/10.3334/ORNLDAAC/1955
 #The research team identified and downloaded polygons of fire perimeters for all overlapping fires examined in these studies. 
 #Fire perimeter polygons were sourced from https://cwfis.cfs.nrcan.gc.ca/ (Canada) and https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services/Alaska_Fire_History_Up_To_2024/FeatureServer (Alaska)
