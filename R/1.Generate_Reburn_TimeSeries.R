@@ -6,7 +6,7 @@ library(terra)
 #Written by Ellen Whitman
 #ellen.whitman@nrcan-rncan.gc.ca
 #Last Edit Nov 25, 2025
-#Wherever 'Your path here' appears as a comment, please replace with the correct pathway to your local file
+#Whereever 'Your path here' appears as a comment, please replace with the correct pathway to your local file
 #The ecozones file can be downloaded here: https://sis.agr.gc.ca/cansis/nsdb/ecostrat/gis_data.html
 #The NBAC fire perimeter maps can be downloaded here:https://cwfis.cfs.nrcan.gc.ca/datamart
 #If the path above ceases to function, access the NBAC maps via the main CWFIS page: https://cwfis.cfs.nrcan.gc.ca/
